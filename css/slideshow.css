@@ -1,0 +1,87 @@
+.slideshow {
+    height: 460px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slideshow .sli-ul a {
+    display: block;
+}
+
+.slideshow img {
+    width: 1226px;
+    height: 460px;
+}
+
+.slideshow .sli-ul {
+    position: absolute;
+}
+
+.slideshow .sli-ul li {
+    float: left;
+}
+
+.sli-box {
+    position: absolute;
+    width: 400px;
+    left: auto;
+    right: 30px;
+    bottom: 20px;
+    text-align: right;
+    transition: opacity .3s;
+}
+
+.sli-box a {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    margin: 0 4px;
+    border-color: hsla(0, 0%, 100%, .3);
+    background: rgba(0, 0, 0, .4);
+    opacity: 1;
+}
+
+.slideshow a.boxA {
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    border: 2px solid #fff;
+    border-color: hsla(0, 0%, 100%, .3);
+    border-radius: 10px;
+    overflow: hidden;
+    background: rgba(0, 0, 0, .4);
+    opacity: .8;
+}
+
+.sli-box a:hover {
+    background: hsla(0, 0%, 100%, .4);
+    border-color: rgba(0, 0, 0, .4);
+}
+
+.slideshow .left,
+.right {
+    position: absolute;
+    width: 41px;
+    height: 69px;
+    cursor: pointer;
+}
+
+.slideshow .left {
+    left: 234px;
+    background: url(../images/icon-slides.png) no-repeat -84px 50%;
+}
+
+.slideshow .right {
+    right: 0;
+    background: url(../images/icon-slides.png) no-repeat -125px 50%;
+}
+
+.slideshow .left:hover {
+    background-position: 0 50%;
+}
+
+.slideshow .right:hover {
+    background-position: -42px 50%;
+}

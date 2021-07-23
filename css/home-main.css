@@ -1,0 +1,632 @@
+    .home-main {
+        background-color: #f5f5f5;
+        padding-top: 4px;
+        padding-bottom: 12px;
+    }
+    /* 小米秒杀 */
+    
+    .home-main .home-flashsale {
+        margin-bottom: 22px;
+        position: relative;
+    }
+    
+    .home-main .home-flashsale .box-hd {
+        position: relative;
+        height: 58px;
+    }
+    
+    .home-main .home-flashsale .box-hd .title {
+        line-height: 58px;
+        font-size: 22px;
+        font-weight: 200;
+        color: #333;
+    }
+    
+    .home-main .home-flashsale .box-hd .row {
+        margin-left: -14px;
+    }
+    
+    .home-flashsale .row .flashsale-countdown {
+        width: 234px;
+        border-top-color: #e53935;
+        height: 300px;
+        padding-top: 39px;
+        border-top-width: 1px;
+        border-top-style: solid;
+        background: #f1eded;
+        text-align: center;
+        margin-right: 14px;
+    }
+    
+    .row .flashsale-countdown .round {
+        font-size: 21px;
+        color: #ef3a3b;
+        padding-top: 15px;
+    }
+    
+    .flashsale-countdown img {
+        margin: 25px auto;
+    }
+    
+    .flashsale-countdown .desc {
+        color: rgba(0, 0, 0, .54);
+        font-size: 15px;
+    }
+    
+    .flashsale-countdown .countdown {
+        width: 168px;
+        margin: 28px auto 0;
+    }
+    
+    .flashsale-countdown .countdown span {
+        width: 46px;
+        height: 46px;
+        background: #605751;
+        color: #fff;
+        font-size: 24px;
+        line-height: 46px;
+        float: left;
+    }
+    
+    .flashsale-countdown .countdown i {
+        width: 15px;
+        float: left;
+        height: 46px;
+        line-height: 46px;
+        color: #605751;
+        font-size: 28px;
+    }
+    
+    .box-bd .flashsale-list {
+        width: 978px;
+        overflow: hidden;
+    }
+    
+    .box-bd .flashsale-list .swiper-wrapper {
+        height: 340px;
+        transform: translate3d(0px, 0px, 0px);
+        transition-duration: 0ms;
+    }
+    
+    .flashsale-list .swiper-wrapper .swiper-slide {
+        width: 234px;
+        margin-right: 14px;
+        border-top-width: 1px;
+        border-top-style: solid;
+        text-align: center;
+        background: #fff;
+        transition: all .6s;
+        float: left;
+    }
+    
+    .flashsale-list .swiper-wrapper .swiper-slide a {
+        display: block;
+        height: 300px;
+        padding-top: 39px;
+    }
+    
+    .swiper-slide .conter .thumb {
+        width: 160px;
+        margin: 0 auto 22px;
+    }
+    
+    .swiper-slide .conter .title {
+        margin: 0 20px 3px;
+        font-size: 14px;
+        font-weight: 400;
+        color: #212121;
+        /*规定段落文本不换行*/
+        white-space: nowrap;
+        /* 文本溢出显示省略符号来代表被修剪的文本 */
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    
+    .swiper-slide .conter .desc {
+        height: 18px;
+        margin: 0 20px 12px;
+        font-size: 12px;
+        text-overflow: ellipsis;
+        color: #b0b0b0;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    
+    .swiper-slide .conter .price {
+        color: #ff6700;
+    }
+    
+    .swiper-slide .conter .price del {
+        color: #b0b0b0;
+    }
+    
+    .flashsale-list .swiper-wrapper .rainbow-item-1 {
+        border-top-color: #ffac13;
+    }
+    
+    .flashsale-list .swiper-wrapper .rainbow-item-2 {
+        border-top-color: #83c44e;
+    }
+    
+    .flashsale-list .swiper-wrapper .rainbow-item-3 {
+        border-top-color: #2196f3;
+    }
+    
+    .flashsale-list .swiper-wrapper .rainbow-item-4 {
+        border-top-color: #e53935;
+    }
+    
+    .flashsale-list .swiper-wrapper .rainbow-item-5 {
+        border-top-color: #00c0a5;
+    }
+    
+    .flashsale-list .swiper-wrapper .rainbow-item-6 {
+        border-top-color: #ffac13;
+    }
+    
+    .flashsale-list .swiper-wrapper .rainbow-item-7 {
+        border-top-color: #83c44e;
+    }
+    
+    .flashsale-list .swiper-wrapper .rainbow-item-8 {
+        border-top-color: #2196f3;
+    }
+    
+    .flashsale-list .swiper-wrapper .rainbow-item-9 {
+        border-top-color: #e53935;
+    }
+    
+    .flashsale-list .swiper-wrapper .rainbow-item-10 {
+        border-top-color: #00c0a5;
+    }
+    
+    .flashsale-list .swiper-wrapper .rainbow-item-11 {
+        border-top-color: #ffac13;
+    }
+    
+    .flashsale-list .swiper-wrapper .rainbow-item-12 {
+        border-top-color: #83c44e;
+    }
+    
+    .flashsale-list .swiper-wrapper .rainbow-item-13 {
+        border-top-color: #2196f3;
+    }
+    
+    .home-flashsale .swiper-controls {
+        position: absolute;
+        right: 0;
+        top: 24px;
+        font-size: 0;
+    }
+    
+    .home-flashsale .swiper-controls .swiper-flashsale-prev,
+    .home-flashsale .swiper-controls .swiper-flashsale-next {
+        display: inline-block;
+        width: 24px;
+        height: 16px;
+        font-size: 16px;
+        border: 1px solid #e0e0e0;
+        padding: 3px 5px;
+        line-height: 16px;
+        transition: color .3s;
+        text-align: center;
+        cursor: pointer;
+        color: #b0b0b0;
+    }
+    
+    .home-flashsale .swiper-controls span.swiper-button-disabled {
+        color: #e0e0e0;
+        cursor: default;
+    }
+    
+    .swiper-controls .swiper-flashsale-prev:hover,
+    .swiper-controls .swiper-flashsale-next:hover {
+        color: #ff6700;
+    }
+    /* 广告图 */
+    
+    .home-main .home-banner-box {
+        height: 120px;
+        margin: 22px 0;
+        overflow: hidden;
+    }
+    /* 手机 */
+    
+    .home-main .home-mobile-box .box-hd {
+        position: relative;
+        height: 58px;
+    }
+    
+    .home-mobile-box .box-hd .title {
+        font-size: 22px;
+        font-weight: 200;
+        line-height: 58px;
+        color: #333;
+    }
+    
+    .home-mobile-box .box-hd .more {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    .home-mobile-box .box-hd .more .more-link {
+        line-height: 58px;
+        color: #424242;
+        font-size: 16px;
+        transition: all .4s;
+    }
+    
+    .home-mobile-box .more .more-link .iconfont-arrow-right-big {
+        width: 12px;
+        height: 12px;
+        color: #fff;
+        padding: 4px;
+        margin-left: 8px;
+        background: #b0b0b0;
+        line-height: 12px;
+        border-radius: 50%;
+        transition: all .4s;
+        font-size: 12px;
+        vertical-align: 1px;
+    }
+    
+    .home-mobile-box .more .more-link:hover {
+        color: #ff6700;
+    }
+    
+    .home-mobile-box .more .more-link:hover .iconfont-arrow-right-big {
+        background-color: #ff6700;
+    }
+    
+    .home-mobile-box .box-bd .row {
+        margin-left: -14px;
+    }
+    
+    .home-mobile-box .box-bd .row .mobile-left {
+        margin-left: 14px;
+        width: 234px;
+    }
+    
+    .home-mobile-box .mobile-left-list {
+        margin: 0 0 -14px -14px;
+        height: 614px;
+    }
+    
+    .mobile-left-list .brick-item-l {
+        height: 614px;
+    }
+    
+    .home-mobile-box .mobile-left-list .brick-item {
+        float: left;
+        width: 234px;
+        margin-left: 14px;
+        margin-bottom: 14px;
+        background: #fff;
+    }
+    
+    .brick-item-l img {
+        height: 614px;
+    }
+    
+    .mobile-left-list a {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .home-mobile-box .mobile-right {
+        width: 978px;
+        margin-left: 14px;
+    }
+    
+    .mobile-right .brick-list {
+        margin: 0 0 -14px -14px;
+        width: 992px;
+    }
+    
+    .brick-item-m {
+        height: 246px;
+        padding: 34px 0 20px;
+    }
+    
+    .brick-item-m-2 {
+        height: 260px;
+        padding: 20px 0;
+    }
+    
+    .brick-item {
+        float: left;
+        width: 234px;
+        margin-left: 14px;
+        margin-bottom: 14px;
+        background: #fff;
+        transition: all .2s linear;
+    }
+    
+    .brick-item .figure-img img {
+        width: 160px;
+        height: 160px;
+    }
+    
+    .brick-item-m .figure-img {
+        width: 150px;
+        height: 150px;
+        margin: 0 auto 18px;
+    }
+    
+    .brick-item-m-2 .figure-img,
+    .brick-item-m-2 .figure-img img {
+        width: 160px;
+        height: 160px;
+    }
+    
+    .brick-item-m .desc,
+    .brick-item-m .title {
+        text-align: center;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    
+    .brick-item-m .title {
+        margin: 0 10px;
+        font-size: 14px;
+        font-weight: 400;
+        color: #333;
+    }
+    
+    .brick-item-m-2 .title {
+        margin: 0 10px 2px;
+    }
+    
+    .brick-item-m .desc {
+        margin: 0 10px 10px;
+        height: 18px;
+        font-size: 12px;
+        color: #b0b0b0;
+    }
+    
+    .brick-item-m .price {
+        margin: 0 10px 10px;
+        text-align: center;
+        color: #ff6700;
+        font-size: 14px;
+    }
+    
+    .brick-item-m-2 .price {
+        margin: 0 10px 14px;
+    }
+    
+    .brick-item:hover {
+        box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+        transform: translate3d(0, -2px, 0);
+    }
+    /* tab统一css */
+    
+    .home-appliances-box .box-hd {
+        position: relative;
+        height: 58px;
+    }
+    
+    .home-appliances-box .box-hd .title {
+        line-height: 58px;
+        font-size: 22px;
+        font-weight: 200;
+        color: #333;
+    }
+    
+    .home-appliances-box .box-hd .more {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    .home-appliances-box .box-hd .more .tab-list {
+        padding: 16px 0 0;
+        font-size: 16px;
+    }
+    
+    .home-appliances-box .box-hd .more .tab-list li {
+        float: left;
+        margin: 0 0 0 30px;
+        cursor: pointer;
+        color: #424242;
+        transition: border .3s;
+        border-bottom: 2px solid #f5f5f5;
+        border-bottom: 2px solid rgba(0, 0, 0, 0);
+    }
+    
+    .home-appliances-box .box-hd .more .tab-list .tab-active,
+    .home-appliances-box .box-hd .more .tab-list li:hover {
+        color: #ff6700;
+        border-bottom: 2px solid #ff6700;
+    }
+    /* 家电下 */
+    
+    .home-appliances-box .box-bd .row {
+        margin-left: -14px;
+    }
+    
+    .home-appliances-box .box-bd .appliances-left {
+        width: 234px;
+        margin-left: 14px;
+    }
+    
+    .home-appliances-box .box-bd .appliances-right {
+        width: 978px;
+        margin-left: 14px;
+    }
+    
+    .home-appliances-box .box-bd .appliances-left .brick-promo-list {
+        margin: 0 0 -14px -14px;
+        height: 614px;
+    }
+    
+    .brick-promo-list .brick-item-m {
+        height: 300px;
+        padding: 0;
+    }
+    
+    .brick-promo-list a {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .brick-promo-list img {
+        width: 234px;
+    }
+    
+    .brick-promo-list .brick-item-m img {
+        height: 300px;
+    }
+    
+    .brick-list {
+        margin: 0 0 -14px -14px;
+        width: 992px;
+        height: 614px;
+    }
+    
+    .brick-item-s {
+        height: 93px;
+        padding-top: 50px;
+        position: relative;
+    }
+    
+    .brick-item-s .figure-img {
+        position: absolute;
+        right: 20px;
+        top: 32px;
+        width: 80px;
+        height: 80px;
+    }
+    
+    .brick-item-s .figure-img img {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .brick-item-s .title {
+        margin: -10px 110px 5px 30px;
+        font-size: 14px;
+        font-weight: 400;
+        color: #333;
+    }
+    
+    .brick-item-s .price {
+        margin: 0 110px 0 30px;
+        font-size: 12px;
+        color: #ff6700;
+    }
+    
+    .brick-item-s .figure-more {
+        position: absolute;
+        right: 35px;
+        top: 48px;
+        width: 48px;
+        height: 48px;
+        color: #ff6700;
+    }
+    
+    .brick-item-s .figure-more i {
+        font-size: 48px;
+    }
+    
+    .brick-item-s .more {
+        display: block;
+        margin: 0 110px 0 30px;
+        font-size: 18px;
+        color: #333;
+    }
+    
+    .brick-item-s .more small {
+        display: block;
+        font-size: 12px;
+        color: #757575;
+    }
+    
+    .hide {
+        display: none!important;
+    }
+    /* 视频 */
+    
+    .home-video-box .box-bd .video-list {
+        width: 1240px;
+        height: 285px;
+    }
+    
+    .home-video-box .video-item {
+        position: relative;
+        float: left;
+        width: 296px;
+        height: 285px;
+        margin-left: 14px;
+        margin-bottom: 14px;
+        text-align: center;
+        background: #fff;
+        transition: all .2s linear;
+    }
+    
+    .home-video-box .video-item:first-child {
+        margin-left: 0;
+    }
+    
+    .home-video-box .video-item .figure-img {
+        position: relative;
+        width: 296px;
+        height: 180px;
+        margin: 0 0 28px;
+    }
+    
+    .home-video-box .video-item .title {
+        margin: 0 14px 6px;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        color: #333;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    
+    .home-video-box .video-item .desc {
+        height: 18px;
+        margin: 0 14px;
+        font-size: 12px;
+        color: #b0b0b0;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    
+    .home-video-box .video-item .play {
+        position: absolute;
+        left: 20px;
+        bottom: 10px;
+        width: 32px;
+        height: 20px;
+        border: 2px solid #fff;
+        border-radius: 12px;
+        background-color: #424242;
+        background-color: rgba(0, 0, 0, .6);
+        color: #fff;
+        -webkit-transition: all .2s;
+        transition: all .2s;
+        overflow: hidden;
+    }
+    
+    .home-video-box .video-item .play i {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    
+    .home-video-box .video-item .figure-img:hover .play {
+        background-color: #ff6700;
+        border-color: #ff6700;
+    }
+    
+    .home-video-box .video-item:hover {
+        box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+        transform: translate3d(0, -2px, 0);
+    }

@@ -1,0 +1,80 @@
+* {
+    margin : 0;
+    padding: 0;
+}
+
+body {
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    font-size  : 100%;
+}
+
+em,
+i {
+    font-style: normal;
+}
+
+input,
+button {
+    outline: none;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+ul li,
+ol li {
+    list-style: none;
+}
+
+.ir {
+    display    : block;
+    text-align : left;
+    text-indent: -9999em;
+    overflow   : hidden;
+}
+
+
+/* 版心 */
+
+.w {
+    width : 1226px;
+    margin: 0 auto;
+}
+
+
+/* 清除浮动 */
+
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+
+/* 兼容ie6 7 */
+
+.clearfix {
+    *zoom: 1;
+}

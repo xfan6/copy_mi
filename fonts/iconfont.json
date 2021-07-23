@@ -1,0 +1,93 @@
+{
+  "id": "2347832",
+  "name": "iconfont",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "17816281",
+      "name": "信息",
+      "font_class": "xinxi-01",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "90513",
+      "name": "15天无理由退货",
+      "font_class": "15tianwuliyoutuihuo",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "1089338",
+      "name": "维修",
+      "font_class": "buoumaotubiao46",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "4033922",
+      "name": "礼品",
+      "font_class": "lipin",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "10715415",
+      "name": "定位",
+      "font_class": "dingwei",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "14966524",
+      "name": "7天退换货",
+      "font_class": "7tiantuihuanhuo",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "8341781",
+      "name": "播放",
+      "font_class": "bofang1",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "17729049",
+      "name": "箭头",
+      "font_class": "jiantou",
+      "unicode": "e83b",
+      "unicode_decimal": 59451
+    },
+    {
+      "icon_id": "17135411",
+      "name": "右箭头",
+      "font_class": "youjiantou1",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "1517504",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e652",
+      "unicode_decimal": 58962
+    },
+    {
+      "icon_id": "18437974",
+      "name": "右箭头",
+      "font_class": "youjiantou",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "18489958",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    }
+  ]
+}
